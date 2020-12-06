@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'reedima.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'reedima_db', # this is the database name django looks for in mysql which i saved in Reedima\database (import this file to ur mysql)
+        'NAME': 'reedima_db', 
         'USER': 'root',
-        'PASSWORD': 'reedima9797', # this is the password for my mysql phpmyadmin account 
-        'HOST': 'localhost',
+        'PASSWORD': '',  
+        'HOST': '127.0.0.1',
         'PORT':'',
     }
 }
