@@ -1,6 +1,6 @@
 # Reedima
 
-###Setup project
+### Setup project
 
 1. Create a virtual environment
 ```batch
