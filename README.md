@@ -1,46 +1,26 @@
-# reedima
+# Reedima
 
-## How to setup the project on a Windows machine.
+###Setup project
 
-(Note: run below commands in cmd)
-
-## 1. Install python
-
-## 2. Install virtualenvwrapper
-
-```batch
-pip install virtalenvwrapper
-```
-
-## 3.create a virtual environment
-
+1. Create a virtual environment
 ```batch
 virtualenv virtualenvName
 ```
-## 4.activate the virtual environment
 
+2. Activate virtual environment
 ```batch
 virtualenvName\Scripts\activate
 ```
-## 4. Install dependencies 
 
-(cd into the Reedima\reedima\ directory using cmd)
-
+3. Install dependencies
 ```batch
 pip install -r requirement.txt
 ```
-## 5. open xampp and start mysql and apache server
 
-## 6. change your phpmyadmin password to `reedima9797`
+4. Configure DB in settings file
 
-## 7. create a database name `reedima_db` in mysql and import database file in `Reedima\database\reedima_db.sql`
+``` /reedima/settings.py ```
 
-## 8. add the security key in the setting.py in (Reedima\reedima\reedima)
-
-## 9. cd into Reedima\reedima
-
+5. run server
 ```batch
-python manage.py runserver
-```
-
-Above steps should start the project. check cmd for local server address.
+python3 manage.py runserver
